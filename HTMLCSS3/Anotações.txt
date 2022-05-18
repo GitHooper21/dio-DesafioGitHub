@@ -1,0 +1,73 @@
+#Termos comuns:
+- Cache: Quando voltamos a acessr um site ele não precisa carregar por completo, pois já armazenou certos dados previamente.
+- Crack: Formas de piratear um site.
+- Cookies: Site registra suas pesquisas e esses dados podem ser utilizados por outros sites.
+
+# O que é a internet?
+- Backbone: Estruturas "parrudas" que captam, gerenciam e direcionam dados de repositório local para outras máquinas ou  para outras Backbones,
+  como a coluna vertebral humana.
+- Ping: Para achar um endereço de ip de algum site devemos entrar no terminal e executr o comando ping <site>. Isso é possivel pois a maquina faz o caminho inverso 
+  e se conecta com o servidor DNS que mostra o ip do site.
+
+#TCP/IP
+- Siglas: - (TCP)Transmission Control Protocol.
+          - (IP)Internet Protocol.
+- São protocolos de comunicação entre computadores em rede, serve para catalogar os dados enviados na internet.
+- Modelo de 4 camadas:
+  - 1. Física (ex:placa de rede)
+  - 2. Rede (ex:IP)
+  - 3. Transporte (ex:TCP, UDP)
+  - 4. Aplicação (ex:FTP,SMTP, HTTP)
+- Diferenças entre TCP e UDP:
+  - UDP:(Rápido, Não Confiável, Carro de Ovo, Utilizados em Livestreams)
+  - TCP:(Voltado à conexão, Handshake, Integridade e Ordem de Dados, Aplicativo de mensagens de texto).
+
+#PORTAS 
+- Traduzido do inglês: Ports/ ou portos (sim, de navio kkkk)
+- "Portinhas" por onde os dados sairão e chegarão
+- 20:FTP / 22:SSH / 25:SMTP / 53:DNS / 80:HTTP / 443:HTTPS (Números das portas e para que elas servem).
+
+#MODEM E ROTEADORES
+_modem_:
+- Aparelho que modula e demodula sinais
+- Hardware que converte dados em um formato que possa ser transmitido de um computador para outro elido por outro.
+_roteador_:
+- Aparelho que distribui internet para um ou mais dispositivos de rede
+- Pode fazer a comunicação entre redes.
+- Pode ser burro.
+- Switch: Distribui para um ou mais dispositivos de uma rede.
+- É inteligente.
+
+#WI-FI
+- Segurança: - WEP(chaves de 64 bits e 128 bits)
+             - WPA(chave trocada periodicamente)
+             - WPA2(+segurança, +processamento)
+-obs: 1 byte = 8 bits
+
+#BLUETOOTH
+- Conexão ponto-a-ponto que não precisa de internet.
+- Possui alcançe máximo.
+
+#BROWSER,SITES, APLICATIVOS E WEBSERVER
+- Browser: - Sabe identificar várias LP, linguagens de marcação e conteúdo multimedia.
+           - Cache e cookies.
+- Site: - Podem ser feitas em diversas LP.
+- Aplicativo: - Um software que é esecutado no navegador.
+              - Quase não existe mais diferenças entre site e aplicativo.
+- E-commerce: - Prefixo "e" que significa eletrônico.
+              - Site de compra e venda com sistema de pagamento.
+              - O sistema de pagamento pode ser exterior ao site.
+- Web-server: - Server estático/físico: Armazena arquivos, softwares e/ou banco de dados.
+              - Server dinâmico: Refere-se aos dados que estão presentes no servidor físico.
+              - Web-service: Interdace disponível para fazer requisições e consultas em bancos de dados inacessíveis. (Correios e Governo).
+
+#STACKS
+- Conjuntos de softwares necessários e suficientes para executar um aplicativo/programa.
+- Define os pontos fortes e fracos do app.
+- Front-end: - "Parte da Frente" do desenvolvimento, parte visual
+             - Site, software, aplicativo, web service
+             - UI = User Interface ; UX = User Experience
+- Back-end: - "Parte de trás" do desenvolvimento, servidores e banco de dados
+            - MySQL e Oracle(Linguagens banco de dados), Protocolos de Comunicação, PHP, Java, Node.js(Framework de Javascript)
+- Principais Linguagens: - HTML(É Linguagem de marcação)/ CSS/ JavaScript / PHP / .NET / JAVA / RUBY( on RAILS) / PYTHON / PERL / C++
+                         - Termos Comuns: 404 / Algoritimo / ALT / API / Biblioteca.dll / Bootstrap / Breakpoints / Debug / Deplay / Design adaptativo(se adequa a qualquer tela)
